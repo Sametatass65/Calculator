@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttonkenarlik"
+    android:backgroundTint="@color/buttonarkaplan"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/plaintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/plaintextbackground"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:onClick="btnSayiTik"
+        android:paddingTop="60dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="60dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAc"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:hapticFeedbackEnabled="false"
+                android:onClick="btnSilTik"
+                android:text="AC"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnArtiEksi"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="+/-"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnYuzde"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnOpTik"
+                android:text="%"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnBolme"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnOpTik"
+                android:text="/"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/buttonarkaplan">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="7"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="8"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="9"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCarpma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnOpTik"
+                android:text="*"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/buttonarkaplan">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="4"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="5"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="6"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnFark"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnOpTik"
+                android:text="-"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/buttonarkaplan">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="1"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="2"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="3"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnTopla"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnOpTik"
+                android:text="+"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/buttonarkaplan">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="0"
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNokta"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonkenarlik"
+                android:onClick="btnSayiTik"
+                android:text="."
+                android:textColor="#121010"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnEsittir"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="10"
+                android:background="@drawable/buttonkenarlik"
+                android:backgroundTint="@color/plaintextbackground"
+                android:onClick="btnSonucTik"
+                android:text="="
+                android:textColor="@color/buttonarkaplan"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
